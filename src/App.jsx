@@ -46,8 +46,9 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div className="bg-white shadow-md rounded-lg p-6 max-w-lg w-full">
-        <h1 className="text-2xl font-bold text-center mb-4">{"API Input"}</h1>
+        <h1 className="text-2xl font-bold text-center mb-4">{"Sai Chakradhar Rao Mahendrakar AP21110011360 "}</h1>
         <div className="mb-6">
+          <label className="flex items-center space-x-2 text-gray-600">API Input</label>
           <textarea
             value={jsonInput}
             onChange={(e) => setJsonInput(e.target.value)}
